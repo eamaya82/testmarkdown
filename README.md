@@ -54,15 +54,15 @@ Pending developments
   - [ ] change the fish for a frog, bug ,snake etc... can by part of the levels?
   - [ ] improve 3d effect (example [codepen][cp3deffect])  
   - [ ] sounds and text
-- [ ] split in components (all logic is in app.js)
-	- [x] Card component [cards.js](src/components/cards.js) [dev-notes](docs/dev-notes.md#cards)
-	- [x] Game logic [game.js](src/components/game.js) [dev-notes](docs/dev-notes.md#game)
-	- [x] Font awesome icon load [importallicons.js](src/components/importallicons.js)
-  - [x] fish [fish.js](src/components/fish.js) [dev-notes](docs/dev-notes.md#fish)
-  - [ ] backgrounds (for example aquarium for fish)
-- [x] "drag-and-drop" for mouse and touch
-  - [x] Mouse
-    - [ ] mouse movement bug [#2](/../../issues/2) (move mouse quick off the card)
+- [ ] split in components (all logic is in app.js)  
+	- [x] Card component [dev-notes](docs/dev-notes.md#cards)  
+	- [x] Game logic [dev-notes](docs/dev-notes.md#game)  
+	- [x] Font awesome icon load  
+  - [x] fish [dev-notes](docs/dev-notes.md#fish)  
+  - [ ] backgrounds (for example aquarium for fish)  
+- [x] "drag-and-drop" for mouse and touch  
+  - [x] Mouse 
+    - [ ] mouse movement `bug` [#2](/../../issues/2) (move mouse quick off the card)
   - [x] Touch
 - [ ] configuration options
   - [ ] reset card on release
