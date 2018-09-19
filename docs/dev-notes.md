@@ -1,8 +1,9 @@
 # Components
 
-## Game
+## Game-mode1
+Pair, drag and drop to match up
 **props**  
-@list: array of icons, example ['square','circle','play','certificate','star','heart']  
+@data: array of icons, example ['square','circle','play','certificate','star','heart']  
 @toHome: funtion to tell parent exit game  
 
 **stats**  
@@ -21,7 +22,18 @@ nextMach: score needed for increment @maxcardDrop
 
 - commanddone: function for communication with the child and know when the @fishCommand is done/finished  
 
-## Cards
+## Game-mode2
+Press, move the thing towards the objective
+**props**  
+@data: array of icons, example ['square','circle','play','certificate','star','heart']  
+@toHome: funtion to tell parent exit game 
+
+## Game-mode4
+Seeks, look for the equal card  
+
+
+
+### Cards
 **props**  
 @size: int 1 to 9? _fonr awesome size prop_ also use "(size * 15)px" to calc height and width of the card  
 @icon: ['icon-name'] font awesome icon name (no the library name)  
@@ -34,7 +46,7 @@ key: is make by "C-" + @icon + @color
   example icon=['bicycle'] and color=10 then key='C-bicycle10'  
 
 
-## fish
+### fish
 **prop**  
 @command: integer 0 to 9 (0-9 for now can be more)  
 @done: funtion to tell parent command done  
