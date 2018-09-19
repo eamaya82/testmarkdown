@@ -34,7 +34,7 @@ Seeks, look for the equal card
 
 
 ---
-
+reusable components
 
 ### Cards
 **props**  
@@ -59,17 +59,18 @@ command values  for movements (like nunpad)
   
 Command | action 
 :---: | ---
-5 | nothing / stop / dont move  
+5 | nothing / stop / dont move  (not implemented)
 8 | up  
-9 | up + rigth  
+9 | up + rigth  (not implemented)
 6 | right  
-3 | right + down  
+3 | right + down  (not implemented)
 2 | down  
-1 | down + left  
+1 | down + left  (not implemented)
 4 | left  
-7 | left + up  
+7 | left + up  (not implemented)
 0 | start command/standby/do noting (not return command done)  
   
-  can by > 9 comand to do spacial move (like atack, change color or die animation etc)  
+  can by "> 9" commands to do spacial move (like atack, pick-up, change color, animation etc)  
+  
   
   
