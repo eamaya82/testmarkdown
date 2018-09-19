@@ -56,7 +56,8 @@ key: is make by "C-" + @icon + @color
 @speed: "1 * value" to increment % dist (% of the screen), normal value speed = 0.25  that is, it changes by (1/4)% screen per render  
 
 command values  for movements (like nunpad)  
-Command | action
+  
+Command | action 
 :---: | ---
 5 | nothing / stop / dont move  
 8 | up  
