@@ -1,7 +1,7 @@
 # Components
 
 ## Game-mode1
-Pair, drag and drop to match up
+Pair, drag and drop to match up  
 **props**  
 @data: array of icons, example ['square','circle','play','certificate','star','heart']  
 @toHome: funtion to tell parent exit game  
@@ -23,7 +23,7 @@ nextMach: score needed for increment @maxcardDrop
 - commanddone: function for communication with the child and know when the @fishCommand is done/finished  
 
 ## Game-mode2
-Press, move the thing towards the objective
+Press, move the thing towards the objective  
 **props**  
 @data: array of icons, example ['square','circle','play','certificate','star','heart']  
 @toHome: funtion to tell parent exit game 
@@ -31,6 +31,9 @@ Press, move the thing towards the objective
 ## Game-mode4
 Seeks, look for the equal card  
 
+
+
+---
 
 
 ### Cards
@@ -52,19 +55,20 @@ key: is make by "C-" + @icon + @color
 @done: funtion to tell parent command done  
 @speed: "1 * value" to increment % dist (% of the screen), normal value speed = 0.25  that is, it changes by (1/4)% screen per render  
 
-command values  
-for movements (like nunpad)  
-  5 nothing / stop / dont move  
-  8 up  
-  9 up + rigth  
-  6 right  
-  3 right + down  
-  2 down  
-  1 down + left  
-  4 left  
-  7 left + up  
+command values  for movements (like nunpad)  
+Command | action
+:---: | ---
+5 | nothing / stop / dont move  
+8 | up  
+9 | up + rigth  
+6 | right  
+3 | right + down  
+2 | down  
+1 | down + left  
+4 | left  
+7 | left + up  
+0 | start command/standby/do noting (not return command done)  
   
-  0 start command/standby/do noting (not return command done)  
   can by > 9 comand to do spacial move (like atack, change color or die animation etc)  
   
   
